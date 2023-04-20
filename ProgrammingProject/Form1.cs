@@ -65,7 +65,7 @@ namespace ProgrammingProject
             g.ResetTransform(); // Resets the transformation matrix.
 
             g.FillEllipse(Brushes.Yellow, dx + 5, dy - 10, 20, 20); // Draws a yellow circle within a bounding square of width of 100 and height of 100.
-            g.DrawString("Star", Font, new SolidBrush(Color.Yellow), (int)(dx - distance + 50), (int)(dy - distance + 25), str); // Writes text "Star" in yellow in position determined by variable "distance".
+            g.DrawString("Star", Font, new SolidBrush(Color.Yellow), (int)(dx - distance + 50), (int)(dy - distance + 22), str); // Writes text "Star" in yellow in position determined by variable "distance".
 
             int x = (int)(dx - distance * Math.Sin(angle * Math.PI / 182.5f)); // Creates new integer "x" by using the sine function and pi.
             int y = (int)(dy - distance * Math.Cos(angle * Math.PI / 182.5f)); // Creates new integer "x" by using the cosine function and pi.
