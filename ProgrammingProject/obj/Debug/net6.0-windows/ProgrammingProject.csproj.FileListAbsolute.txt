@@ -1,0 +1,17 @@
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\bin\Debug\net6.0-windows\ProgrammingProject.exe
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\bin\Debug\net6.0-windows\ProgrammingProject.deps.json
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\bin\Debug\net6.0-windows\ProgrammingProject.runtimeconfig.json
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\bin\Debug\net6.0-windows\ProgrammingProject.dll
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\bin\Debug\net6.0-windows\ProgrammingProject.pdb
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ProgrammingProject.csproj.AssemblyReference.cache
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ProgrammingProject.Form1.resources
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ProgrammingProject.csproj.GenerateResource.cache
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ProgrammingProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ProgrammingProject.AssemblyInfoInputs.cache
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ProgrammingProject.AssemblyInfo.cs
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ProgrammingProject.csproj.CoreCompileInputs.cache
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ProgrammingProject.dll
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\refint\ProgrammingProject.dll
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ProgrammingProject.pdb
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ProgrammingProject.genruntimeconfig.cache
+C:\Users\jappl\source\repos\ProgrammingProject\ProgrammingProject\obj\Debug\net6.0-windows\ref\ProgrammingProject.dll
