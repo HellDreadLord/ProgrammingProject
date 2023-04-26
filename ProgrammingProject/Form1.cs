@@ -64,13 +64,13 @@ namespace ProgrammingProject
             g.DrawEllipse(Pens.White, -distance + 3, -distance + 3, 100, 100); // Draws an empty circle within a bounding square of width of 100 and height of 100, using a white pen.
             g.ResetTransform(); // Resets the transformation matrix.
             
-            g.FillEllipse(Brushes.Yellow, dx + 5, dy - 10, 20, 20); // Draws a yellow circle within a bounding square of width of 100 and height of 100.
+            g.FillEllipse(Brushes.Yellow, dx + 5, dy - 10, 20, 20); // Draws a yellow circle within a bounding square of width of 20 and height of 20.
             g.DrawString("Star", Font, new SolidBrush(Color.Yellow), (int)(dx - distance + 50), (int)(dy - distance + 22), str); // Writes text "Star" in yellow in position determined by variable "distance".
 
             int x = (int)(dx - distance * Math.Sin(angle * Math.PI / 182.5f)); // Creates new integer "x" by using the sine function and pi.
             int y = (int)(dy - distance * Math.Cos(angle * Math.PI / 182.5f)); // Creates new integer "x" by using the cosine function and pi.
 
-            g.FillEllipse(Brushes.Aqua, (int)x, (int)y, 10, 10); // Draws a light blue circle within a bounding square of width 100 and height of 100.
+            g.FillEllipse(Brushes.Aqua, (int)x, (int)y, 10, 10); // Draws a light blue circle within a bounding square of width 10 and height of 10.
             angle -= planetVelocity; // Variable "angle" is equal to itself subtract the variable "planetVelocity".
 
             g.DrawEllipse(Pens.White, (int)x - 10, (int)y - 10, 30, 30); // Draws an empty circle within a bounding square of width 30 and height 30, using a white pen.
