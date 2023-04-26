@@ -60,6 +60,10 @@ namespace ProgrammingProject
             Graphics g = e.Graphics; // Use graphics class when using "System.Drawing"
             StringFormat str = new StringFormat(); // Initializes a new object as a string.
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias; // Smooths the curves to remove pixellated jagged lines.
+            g.TranslateTransform(dx, dy, MatrixOrder.Append); // Moves the origin location of object, appending the change to transformation matrix.
+            g.DrawEllipse(Pens.White, -distance + 3, -distance + 3, 100, 100); // Draws an empty circle within a bounding square of width of 100 and height of 100, using a white pen.
+            g.ResetTransform(); // Resets the transformation matrix.
+            
             g.FillEllipse(Brushes.Yellow, dx + 5, dy - 10, 20, 20); // Draws a yellow circle within a bounding square of width of 100 and height of 100.
             g.DrawString("Star", Font, new SolidBrush(Color.Yellow), (int)(dx - distance + 50), (int)(dy - distance + 22), str); // Writes text "Star" in yellow in position determined by variable "distance".
 
