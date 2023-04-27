@@ -68,7 +68,7 @@ namespace ProgrammingProject
             g.DrawString("Star", Font, new SolidBrush(Color.Yellow), (int)(dx - distance + 50), (int)(dy - distance + 22), str); // Writes text "Star" in yellow in position determined by variable "distance".
 
             int x = (int)(dx - distance * Math.Sin(angle * Math.PI / 182.5f)); // Creates new integer "x" by using the sine function and pi.
-            int y = (int)(dy - distance * Math.Cos(angle * Math.PI / 182.5f)); // Creates new integer "x" by using the cosine function and pi.
+            int y = (int)(dy - distance * Math.Cos(angle * Math.PI / 182.5f)); // Creates new integer "y" by using the cosine function and pi.
 
             g.FillEllipse(Brushes.Aqua, (int)x, (int)y, 10, 10); // Draws a light blue circle within a bounding square of width 10 and height of 10.
             angle -= planetVelocity; // Variable "angle" is equal to itself subtract the variable "planetVelocity".
